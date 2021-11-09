@@ -90,6 +90,10 @@ map ti :+tabnext<CR>
 map sv <C-w>t<C-w>H
 map sh <C-w>t<C-w>K
 
+"install:
+"curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+"https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+"
 call plug#begin('~/.vim/plugged')
 
 Plug 'vim-airline/vim-airline'
