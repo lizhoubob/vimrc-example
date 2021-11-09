@@ -102,7 +102,8 @@ Plug 'connorholyday/vim-snazzy'
 
 
 " File navigation
-Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+" modify nerdtree source
+Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " Taglist
@@ -112,7 +113,8 @@ Plug 'majutsushi/tagbar', { 'on': 'TagbarOpenAutoClose' }
 Plug 'w0rp/ale'
 
 " Auto Complete
-Plug 'Valloric/YouCompleteMe'
+" disable YouCompleteMe 
+"Plug 'Valloric/YouCompleteMe'
 
 " Undo Tree
 Plug 'mbbill/undotree/'
